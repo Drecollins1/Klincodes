@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.alumni {
+  background-image: url(../assets/alumni.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.scroll ::-webkit-scrollbar {
+  width: 0;
+}
+.trans {
+  font-weight: 900;
+
+  color: #ffffff;
+}
+.welcome {
+  font-weight: 400;
+  line-height: 36px;
+  color: #ffffff;
+}
+.pro {
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.butt {
+  display: inline-block;
+  font-weight: 600;
+  line-height: 21.94px;
+  text-align: center;
+}
+.call {
+  display: inline-block;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.94px;
+  text-align: center;
+  color: #ffffff;
+}
+.herobg {
+  background: linear-gradient(rgba(18, 27, 79, 0.7), rgba(25, 44, 88, 0.9)),
+    url(../assets/heroimg.png) no-repeat center center;
+}

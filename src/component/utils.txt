@@ -1,0 +1,59 @@
+<details>
+              <summary> How do I make request for your service?</summary>
+              <p>
+                -Online via the website (www.klincode.com) <br /> -By phone
+                call/SMS <br />
+                -Visiting our office <br />
+                -Any of our service locations.
+              </p>
+            </details>
+            <hr />
+            <details>
+              <summary>Do you have experienced staff?</summary>
+              <p>
+                -Online via the website (www.klincode.com) <br /> -By phone
+                call/SMS-Visiting our office <br />
+                -Any of our service locations.
+              </p>
+            </details>
+            <hr />
+            <details>
+              <summary>
+                Can I schedule a one time cleaning or do you only offer
+                recurring service?
+              </summary>
+              <p>
+                -Online via the website (www.klincode.com) <br /> -By phone
+                call/SMS-Visiting our office <br />
+                -Any of our service locations.
+              </p>
+            </details>
+            <hr />
+            <details>
+              <summary>
+                What if I need to cancel or reschedule my appointment?
+              </summary>
+              <p>
+                -Online via the website (www.klincode.com) <br /> -By phone
+                call/SMS-Visiting our office <br />
+                -Any of our service locations.
+              </p>
+            </details>
+            <hr />
+            <details>
+              <summary>Can I get a free quote or estimate?</summary>
+              <p>
+                -Online via the website (www.klincode.com) <br /> -By phone
+                call/SMS-Visiting our office <br />
+                -Any of our service locations.
+              </p>
+            </details>
+            <hr />
+            <details>
+              <summary>How do I pay for your service?</summary>
+              <p>
+                -Online via the website (www.klincode.com) <br /> -By phone
+                call/SMS-Visiting our office <br />
+                -Any of our service locations.
+              </p>
+            </details>
