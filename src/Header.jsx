@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const MobileMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,44 +27,56 @@ const MobileMenu = () => {
       <header className="bg-white shadow-sm fixed top-0 w-[100%] z-50">
         <nav className="flex space-x-4 justify-between items-center p-4 md:px-16">
           <div>
-            <Link to="/">
+            <NavLink to="/">
               <img
                 className="w-[127px] h-[72px]"
                 src="../assets/logobg.png"
                 alt=""
               />
-            </Link>
+            </NavLink>
           </div>
           <div className="flex items-center space-x-4">
             <div>
               <ul className="hidden lg:flex items-center mt-2 space-x-10 font-semibold">
                 <li>
-                  <Link to="/" className=" text-gray-500 hover:text-black">
+                  <NavLink
+                    to="/"
+                    className={({ isActive }) =>
+                      isActive ? "text-black" : "text-gray-500"
+                    }
+                  >
                     Home
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to="/about" className=" text-gray-500 hover:text-black">
+                  <NavLink
+                    to="/about"
+                    className={({ isActive }) =>
+                      isActive ? "text-black" : "text-gray-500"
+                    }
+                  >
                     About Us
-                  </Link>
+                  </NavLink>
                 </li>
                 <li>
                   <button
                     onClick={handleScroll}
-                    className=" text-gray-500 hover:text-black"
+                    className="text-gray-500 active:text-black"
                   >
                     Services
                   </button>
                 </li>
                 <li>
-                  <Link
+                  <NavLink
                     to="/gallery"
-                    className=" text-gray-500 hover:text-black"
+                    className={({ isActive }) =>
+                      isActive ? "text-black" : "text-gray-500"
+                    }
                   >
                     Gallery
-                  </Link>
+                  </NavLink>
                 </li>
-                <a href="https://wa.link/o1uify">
+                <a href="https://wa.NavLink/o1uify">
                   <button className="bg-blue-950 hover:bg-transparent duration-500 hover:text-blue-950 hover:border hover:border-blue-950 text-slate-100 p-2 rounded-full px-10">
                     Call Us
                   </button>
@@ -129,22 +141,22 @@ const MobileMenu = () => {
           <div className="flex flex-col p-3 h-full">
             <ul className="flex flex-col mt-24 gap-4 p-3 text-white hover:text-sky-500 z-50">
               <li>
-                <Link
+                <NavLink
                   to="/"
                   className="text-white text-2xl font-semibold hover:text-black"
                   onClick={closeMenu}
                 >
                   Home
-                </Link>
+                </NavLink>
               </li>
               <li>
-                <Link
+                <NavLink
                   to="/about"
                   className="text-white text-2xl font-semibold hover:text-black"
                   onClick={closeMenu}
                 >
                   About Us
-                </Link>
+                </NavLink>
               </li>
               <li>
                 <button
@@ -155,33 +167,33 @@ const MobileMenu = () => {
                 </button>
               </li>
               <li>
-                <Link
+                <NavLink
                   to="/gallery"
                   className="text-white text-2xl font-semibold hover:text-black"
                   onClick={closeMenu}
                 >
                   Gallery
-                </Link>
+                </NavLink>
               </li>
             </ul>
             <div className="flex justify-center mt-10">
-              <Link
+              <NavLink
                 to="/booknow"
                 className="text-white mx-auto max-w-7xl p-3 px-8 lg:px-16 hover:bg-blue-950 border bg-transparent rounded-full"
                 onClick={closeMenu}
               >
                 Book Your Cleaning Now
-              </Link>
+              </NavLink>
             </div>
             <div className="flex justify-center mt-5">
-              <a href="https://wa.link/o1uify">
-                <Link
+              <a href="https://wa.NavLink/o1uify">
+                <NavLink
                   to="/booknow"
                   className="text-white p-3 px-24 lg:px-16 hover:bg-blue-950 border bg-transparent rounded-full"
                   onClick={closeMenu}
                 >
                   Call Us
-                </Link>
+                </NavLink>
               </a>
             </div>
           </div>

@@ -61,7 +61,7 @@ const Booknow = () => {
       })
       .catch((error) => {
         console.error("FAILED...", error);
-        
+
         alert("Failed to send email. Please try again later.");
       });
   };
@@ -177,6 +177,9 @@ const Booknow = () => {
                   <option value="4">Deep Cleaning</option>
                   <option value="5">Disinfection/Decontamination</option>
                   <option value="6">Upholstery and carpet cleaning</option>
+                  <option value="7">Janitorial service</option>
+                  <option value="8">Post Construction Cleanin</option>
+                  <option value="9">Retail and commercial cleaning</option>
                 </select>
               </div>
 
@@ -212,7 +215,7 @@ const Booknow = () => {
                 value="Send"
                 onClick={successful}
               />
-            </form>
+            </form>to_name
           </div>
         </div>
       </div>

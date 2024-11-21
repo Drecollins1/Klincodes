@@ -13,13 +13,11 @@
   line-height: 36px;
   color: rgba(0, 0, 0, 1);
 }
-
 .alumni {
   background-image: url(../assets/alumni.png);
   background-repeat: no-repeat;
   background-position: center;
 }
-
 .scroll ::-webkit-scrollbar {
   width: 0;
 }
@@ -37,7 +35,6 @@
   font-weight: 500;
   color: #ffffff;
 }
-
 .butt {
   display: inline-block;
   font-weight: 600;
@@ -56,4 +53,7 @@
 .herobg {
   background: linear-gradient(rgba(18, 27, 79, 0.7), rgba(25, 44, 88, 0.9)),
     url(../assets/heroimg.png) no-repeat center center;
+}
+.vertical{
+  vertical-align: center;
 }

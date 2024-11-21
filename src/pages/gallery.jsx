@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { NavLink } from "react-router-dom";
 import Newsletter from "../newsletter";
 import Services from "../Services";
 
@@ -8,10 +9,10 @@ const Gallery = () => {
   });
   return (
     <>
-      <section class="bg-white max-w-7xl mx-auto mt-28">
-        <div className="mt-10 relative p-4 z-0 object-cover hover:scale-105 transition-transform duration-700 ease-in-out rounded-lg">
+      <section class="bg-white  max-w-7xl mx-auto mt-28">
+        <div className="mt-10  relative p-4 z-0 object-cover hover:scale-105 transition-transform duration-700 ease-in-out rounded-lg">
           <img
-            className="brightness-50 lg:h-full h-64 "
+            className="brightness-50 lg:h-full  "
             src="../assets/img/img1.png"
             alt=""
           />
@@ -110,18 +111,24 @@ const Gallery = () => {
           </div>
 
           <div className="w-full md:w-1/2 lg:w-1/3 p-4 lg:p-3">
-            <div className=" h-52 md:h-[532px] flex items-center justify-center">
+            <NavLink
+              to="/seemore"
+              className="relative  h-52 md:h-[532px] flex items-center justify-center"
+            >
               <img
                 src="../assets/img/img9.png"
                 alt=""
-                className="h-full rounded-lg w-full object-cover hover:scale-105 transition-transform duration-500 ease-in-out"
+                className="h-full brightness-50 rounded-lg w-full object-cover hover:scale-105 transition-transform duration-500 ease-in-out"
               />
-            </div>
+              <div className="absolute flex items-center space-x-3 text-white text-6xl ">
+                See More <i class="fa-solid fa-angles-right"></i>
+              </div>
+            </NavLink>
           </div>
         </div>
       </section>
       <div className=" pt-20 2xl:px-16">
-        <Services />.
+        <Services />
       </div>
 
       <Newsletter />

@@ -36,7 +36,7 @@ const Faq = () => {
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4}>
-                  -Online via the website (www.klincode.com) <br /> -By phone
+                  -Online via the website (www.klincodeltd.com) <br /> -By phone
                   call/SMS <br />
                   -Visiting our office <br />
                   -Any of our service locations.
@@ -155,8 +155,8 @@ const Faq = () => {
             Can't find the answer you're looking for? Please chat to our
             friendly team.
           </p>
-          <a href="https://wa.link/o1uify">
-            <button className="bg-blue-950 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          <a href="https://wa.link/xgivyu">
+            <button className="bg-blue-950 hover:bg-blue-700 hover:duration-700 text-white font-bold py-2 px-4 rounded">
               Call Us
             </button>
           </a>

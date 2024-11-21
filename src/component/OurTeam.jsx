@@ -4,18 +4,23 @@ export default function OurTeam() {
   return (
     <div className="max-w-6xl mx-auto lg:pt-20">
       <div className="grid bg-[#F8FAFF] rounded-2xl  grid-cols-1 md:grid-cols-2 gap-6">
-        <div className="lg:px-20 pt-10 flex flex-col justify-between">
-          <div className="flex flex-col   ">
-          <h2 className="text-2xl text-center lg:text-left font-bold mb-2">Meet Our Team</h2>
-          <p className="text-zinc-600 lg:text-left text-center mb-4">
-            Our dedicated team of industry certified professionals
-          </p>
+        <div className=" pt-10 flex flex-col justify-between">
+          <div className="flex flex-col  lg:px-20 ">
+            <h2 className="text-2xl text-center lg:text-left font-bold mb-2">
+              Meet Our Team
+            </h2>
+            <p className="text-zinc-600 lg:text-left text-center mb-4">
+              Our dedicated team of industry certified professionals
+            </p>
           </div>
-          <div className="lg:block flex justify-center">
-            <Link to="/booknow" className="bg-[#68CA05] hover:bg-blue-950 duration-500 text-white py-3 ]] px-5 rounded-full">
+          
+            <Link
+              to="/booknow"
+              className="bg-[#68CA05] ml-20 flex justify-center w-1/2 p-3 hover:bg-blue-950 duration-500 text-white rounded-full"
+            >
               Book Your Cleaning Now
             </Link>
-          </div>
+         
         </div>
         <div className="grid lg:grid-cols-3 md:grid-cols-3 gap-10 lg:gap-0 place-items-center ">
           <div className=""></div>

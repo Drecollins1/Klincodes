@@ -12,12 +12,14 @@ import Gallery from "./pages/gallery";
 import About from "./pages/about";
 import Booknow from "./pages/Booknow";
 import { ContactUs } from "./pages/emailjs";
+import SeeMore from "./pages/SeeMore";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Applayout />}>
       <Route index element={<HomePage />} />
       <Route path="gallery" element={<Gallery />} />
+      <Route path="seemore" element={<SeeMore />} />
       <Route path="about" element={<About />} />
       <Route path="booknow" element={<Booknow />} />
       <Route path="emailjs" element={<ContactUs />} />
